@@ -21,18 +21,17 @@ if answer == "yes":
         print("Well, this will take a while but it's your first step, way to go!") 
 
 elif answer == "no":
-
     print("Normally you shouldn't be here, but let me ask you one thing")
     print("Are you a Python coach?")
 
     answer3 = input("yes/no")
 
-        if answer3 =="yes":
-            print("Ooh, all good then, you're very welcome here")
-            print("Thanks for being and helping here today!") 
+    if answer3 =="yes":
+        print("Ooh, all good then, you're very welcome here :)")
+        print("Thanks for being and helping here today!") 
 
-        elif answer3 =="no":
-        print("Hm, maybe you should't be here :) ")
+    elif answer3 =="no":
+        print("Hm, maybe you should't be here :)")
         print("This course is for complete beginners")
         print("Do you want to search for another Meetup that is more suitable for you?")
 
@@ -42,10 +41,6 @@ elif answer == "no":
             print("You will be redirected to the Meetup homepage shortly")
         else:
             print("Was nice to meet you, Bye!")
-
-        else: 
-        print("What brought you here then?") 
-        input("")  
 
 else:
     print("Please reply 'yes' or 'no'")
